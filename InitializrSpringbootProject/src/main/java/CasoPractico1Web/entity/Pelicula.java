@@ -26,7 +26,7 @@ public class Pelicula implements Serializable {
      private String fecha;
      
      @ManyToOne
-     @JoinColumn(name="artistas_id")
+     @JoinColumn(name="sala_numero")
      private Sala sala;
 
     public long getId() {
