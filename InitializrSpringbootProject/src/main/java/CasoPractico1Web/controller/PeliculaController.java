@@ -26,7 +26,7 @@ public class PeliculaController {
     @Autowired
     private ISalaService SalaService;
      
-      @Autowired
+    @Autowired
     private IPeliculaService PeliculaService;
       
       @GetMapping ("/pelicula")

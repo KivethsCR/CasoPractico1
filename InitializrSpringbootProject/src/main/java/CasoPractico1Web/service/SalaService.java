@@ -8,11 +8,13 @@ import CasoPractico1Web.entity.Sala;
 import CasoPractico1Web.repository.SalaRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 /**
  *
  * @author joshu
  */
+@Service
 public class SalaService implements ISalaService{
     @Autowired
     private SalaRepository SalaRepository;
